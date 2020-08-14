@@ -1,9 +1,7 @@
 // For solving instant wake by hooking GPRW or UPRW
 
-#ifndef NO_DEFINITIONBLOCK
-DefinitionBlock("", "SSDT", 2, "hack", "GPRW", 0)
+DefinitionBlock("", "SSDT", 2, "STiX", "GPRW", 0)
 {
-#endif
     External(XPRW, MethodObj)
     External(RMCF.DWOU, IntObj)
 
@@ -26,7 +24,5 @@ DefinitionBlock("", "SSDT", 2, "hack", "GPRW", 0)
         }
         Return (XPRW(Arg0, Arg1))
     }
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
 //EOF

@@ -1,9 +1,7 @@
 // USB _UPC configuration for Toshiba Satellite S50-B-N
 
-#ifndef NO_DEFINITIONBLOCK
-DefinitionBlock ("", "SSDT", 2, "hack", "_UPC", 0)
+DefinitionBlock ("", "SSDT", 2, "STiX", "_UPC", 0)
 {
-#endif
 
     External(_SB.PCI0.XHC.RHUB, DeviceObj)
     Scope(_SB.PCI0.XHC.RHUB)
@@ -47,8 +45,5 @@ DefinitionBlock ("", "SSDT", 2, "hack", "_UPC", 0)
             Return(UPC3)
         }
     }
-    
-#ifndef NO_DEFINITIONBLOCK
 }
-#endif
 //EOF

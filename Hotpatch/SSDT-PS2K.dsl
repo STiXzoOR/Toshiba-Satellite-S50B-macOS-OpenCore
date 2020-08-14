@@ -1,7 +1,7 @@
 // Keyboard configuration
 // Only necessary if using ApplePS2SmartTouchpad
 
-DefinitionBlock("", "SSDT", 2, "hack", "PS2K", 0)
+DefinitionBlock("", "SSDT", 2, "STiX", "PS2K", 0)
 {
     External(_SB.PCI0.LPCB.PS2K, DeviceObj)
     External(_SB.PCI0.LPCB.EC, DeviceObj)
