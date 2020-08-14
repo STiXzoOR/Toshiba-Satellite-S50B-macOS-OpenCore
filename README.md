@@ -1,10 +1,10 @@
-# Toshiba Sattelite S50B-N-15 macOS - OpenCore
+# Toshiba Satellite S50B-N-15 macOS - OpenCore
 
-This repository contains scripts and ACPI patches for Toshiba Sattelite S50B-N-15 (maybe and some others in the same series) to get macOS installed and running.
+This repository contains scripts and ACPI patches for Toshiba Satellite S50B-N-15 (maybe and some others in the same series) to get macOS installed and running.
 
 ## Supported Models
 
-Toshiba Sattelite S50B-N-15
+Toshiba Satellite S50B-N-15
 
 ## Hardware
 
@@ -98,7 +98,7 @@ In Terminal:
 ```(shell)
 mkdir ~/Projects
 cd ~/Projects
-git clone https://github.com/STiXzoOR/Toshiba-Satellite-S50B-macOS s50b.git
+git clone https://github.com/STiXzoOR/Toshiba-Satellite-S50B-macOS-OpenCore s50b.git
 cd s50b.git
 ```
 
@@ -141,4 +141,4 @@ make install
 
 ## LICENSE
 
-- This project is licensed under the Anyone But TonyMac License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Sattelite-S50B-N-15-macOS/blob/master/LICENSE) file for details.
+- This project is licensed under the Anyone But TonyMac License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Satellite-S50B-N-15-macOS-OpenCore/blob/master/LICENSE) file for details.

@@ -1,4 +1,4 @@
-// USB _UPC configuration for Toshiba Sattelite S50-B-N
+// USB _UPC configuration for Toshiba Satellite S50-B-N
 
 #ifndef NO_DEFINITIONBLOCK
 DefinitionBlock ("", "SSDT", 2, "hack", "_UPC", 0)
