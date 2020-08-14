@@ -1,0 +1,8 @@
+.DS_Store
+config_UNMASKED.plist
+Build/.DS_Store
+Build/*.aml
+Build/*.kext
+Downloads/*
+Hotpatch/Downloads/*
+macos-tools
