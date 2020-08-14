@@ -17,7 +17,7 @@ Toshiba Sattelite S50B-N-15
 | Sound card    | Conexant CX20756                                |
 | Wireless card | DW1560                                          |
 
-## Prequests
+## Prerequisites
 
 > **BIOS/UEFI settings**
 
