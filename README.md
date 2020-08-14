@@ -1,4 +1,4 @@
-# Toshiba Satellite S50B-N-15 macOS - OpenCore
+# [WIP] Toshiba Satellite S50B-N-15 macOS - OpenCore
 
 This repository contains scripts and ACPI patches for Toshiba Satellite S50B-N-15 (maybe and some others in the same series) to get macOS installed and running.
 
