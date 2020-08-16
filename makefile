@@ -7,8 +7,6 @@ BUILDDIR=./Build
 HOTPATCH=./Hotpatch
 
 IASL=iasl
-IASLOPTS=-vw 2095 -vw 2008 -vw 4089 -vi -vs
-
 HACK=$(wildcard $(HOTPATCH)/*.dsl)
 HACK:=$(subst $(HOTPATCH),$(BUILDDIR),$(HACK))
 HACK:=$(subst .dsl,.aml,$(HACK))
@@ -29,6 +27,6 @@ install: $(HACK)
 	cp $(HACK) $(EFIDIR)/EFI/OC/ACPI
 
 Build/%.aml : Hotpatch/%.dsl
-	$(IASL) $(IASLOPTS) -p $@ $<
+	$(IASL) -p $@ $<
 
 #EOF

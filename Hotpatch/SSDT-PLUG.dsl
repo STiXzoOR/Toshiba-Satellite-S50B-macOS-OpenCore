@@ -1,8 +1,8 @@
 
 DefinitionBlock ("", "SSDT", 2, "CORP", "CpuPlug", 0x00003000)
 {
-    External (_PR_.CPU0, ProcessorObj)
-    Scope (\_PR_.CPU0)
+    External (\_PR.CPU0, ProcessorObj)
+    Scope (\_PR.CPU0)
     {
         Method (DTGP, 5, NotSerialized)
         {
