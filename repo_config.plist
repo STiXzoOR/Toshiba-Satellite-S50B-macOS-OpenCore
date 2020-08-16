@@ -2,6 +2,8 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>Bootloader</key>
+	<string>OC</string>
 	<key>Downloads</key>
 	<dict>
 		<key>GitHub</key>
@@ -374,6 +376,8 @@
 			<dict>
 				<key>Name</key>
 				<string>AppleSDXCInjector.kext</string>
+				<key>Essential</key>
+				<true/>
 			</dict>
 		</array>
 	</dict>
