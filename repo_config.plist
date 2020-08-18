@@ -16,30 +16,6 @@
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>VoodooPS2.*RELEASE</string>
-				<key>Filename</key>
-				<string>VoodooPS2</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>VoodooPS2Controller.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Source</key>
-				<string>api</string>
-				<key>Author</key>
-				<string>dortania</string>
-				<key>Repo</key>
-				<string>build-repo</string>
-				<key>Name</key>
 				<string>VoodooInput.*RELEASE</string>
 				<key>Filename</key>
 				<string>VoodooInput</string>
@@ -134,10 +110,14 @@
 						<dict>
 							<key>Name</key>
 							<string>SMCProcessor.kext</string>
+							<key>Essential</key>
+							<true/>
 						</dict>
 						<dict>
 							<key>Name</key>
 							<string>SMCSuperIO.kext</string>
+							<key>Essential</key>
+							<true/>
 						</dict>
 					</array>
 				</dict>
@@ -264,6 +244,24 @@
 			</dict>
 			<dict>
 				<key>Author</key>
+				<string>BAndysc</string>
+				<key>Repo</key>
+				<string>VoodooPS2</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>VoodooPS2Controller.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
 				<string>acidanthera</string>
 				<key>Repo</key>
 				<string>BrcmPatchRAM</string>
@@ -379,16 +377,6 @@
 				<key>Essential</key>
 				<true/>
 			</dict>
-		</array>
-	</dict>
-	<key>Deprecated</key>
-	<dict>
-		<key>Kexts</key>
-		<array>
-			<string>CodecCommander.kext</string>
-			<string>BrcmPatchRAM2.kext</string>
-			<string>AppleHDA_CX20756.kext</string>
-			<string>AppleBacklightFixup.kext</string>
 		</array>
 	</dict>
 </dict>
