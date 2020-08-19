@@ -219,10 +219,22 @@
 				<data>X09TSQ==</data>
 				<key>Replace</key>
 				<data>WE9TSQ==</data>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Method(GPRW,2,S) to XPRW</string>
+				<string>Change Method(GPRW,2,S) to XPRW</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -233,38 +245,74 @@
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Method(_Q63,0,N) to XQ63</string>
+				<string>Change Method(_Q63,0,N) to XQ63</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E2MwA=</data>
+				<data>X1E2Mw==</data>
 				<key>Replace</key>
-				<data>WFE2MwA=</data>
+				<data>WFE2Mw==</data>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Method(_Q62,0,N) to XQ62</string>
+				<string>Change Method(_Q62,0,N) to XQ62</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>X1E2MgA=</data>
+				<data>X1E2Mg==</data>
 				<key>Replace</key>
-				<data>WFE2MgA=</data>
+				<data>WFE2Mg==</data>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Name(_PRW, Package(0x6d,3)) to 0x6d,0</string>
+				<string>Change Name(_PRW, Package(0x6d,3)) to 0x6d,0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -275,10 +323,22 @@
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Name(_PRW, Package(0x6d,4)) to 0x6d,0</string>
+				<string>Change Name(_PRW, Package(0x6d,4)) to 0x6d,0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -289,10 +349,20 @@
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>change Name(_PRW, Package(0x09,4)) to 0x09,0</string>
+				<string>Change Name(_PRW, Package(0x09,4)) to 0x09,0</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
@@ -303,6 +373,18 @@
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -317,6 +399,44 @@
 				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>EHC1 to EH01</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUhDMQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUgwMQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
 			</dict>
 		</array>
 		<key>Quirks</key>
