@@ -414,7 +414,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>EHC1 to EH01</string>
+				<string>Change EHC1 to EH01</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
@@ -429,6 +429,32 @@
 				<data></data>
 				<key>Replace</key>
 				<data>RUgwMQ==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Change EC0 to EC</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>RUMwXw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>RUNfXw==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
