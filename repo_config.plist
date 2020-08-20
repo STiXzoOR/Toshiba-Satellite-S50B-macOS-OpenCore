@@ -113,12 +113,6 @@
 							<key>Essential</key>
 							<true/>
 						</dict>
-						<dict>
-							<key>Name</key>
-							<string>SMCSuperIO.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
 					</array>
 				</dict>
 			</dict>
