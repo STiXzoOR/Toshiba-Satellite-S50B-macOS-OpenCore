@@ -2,12 +2,12 @@
 
 DefinitionBlock ("", "SSDT", 2, "STiX", "PS2K", 0)
 {
-    External (_SB.PCI0.LPCB.EC, DeviceObj)
-    External (_SB.PCI0.LPCB.EC.XQ62, MethodObj)    // 0 Arguments
-    External (_SB.PCI0.LPCB.EC.XQ63, MethodObj)    // 0 Arguments
-    External (_SB.PCI0.LPCB.PS2K, DeviceObj)
+    External (_SB_.PCI0.LPCB.EC0_, DeviceObj)
+    External (_SB_.PCI0.LPCB.EC0_.XQ62, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.EC0_.XQ63, MethodObj)    // 0 Arguments
+    External (_SB_.PCI0.LPCB.PS2K, DeviceObj)
 
-    Scope (_SB.PCI0.LPCB.EC)
+    Scope (_SB.PCI0.LPCB.EC0)
     {
         // Brightness Down
         Method (_Q63, 0, NotSerialized)  // _Q63: EC Query
@@ -19,7 +19,7 @@ DefinitionBlock ("", "SSDT", 2, "STiX", "PS2K", 0)
             }
             Else
             {
-                \_SB.PCI0.LPCB.EC.XQ63 ()
+                \_SB.PCI0.LPCB.EC0.XQ63 ()
             }
         }
 
@@ -33,7 +33,7 @@ DefinitionBlock ("", "SSDT", 2, "STiX", "PS2K", 0)
             }
             Else
             {
-                \_SB.PCI0.LPCB.EC.XQ62 ()
+                \_SB.PCI0.LPCB.EC0.XQ62 ()
             }
         }
     }

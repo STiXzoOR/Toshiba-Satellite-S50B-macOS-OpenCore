@@ -1,4 +1,3 @@
-
 DefinitionBlock ("", "SSDT", 2, "CORP ", "SsdtEC", 0x00001000)
 {
     External (\_SB.PCI0.LPCB, DeviceObj)
