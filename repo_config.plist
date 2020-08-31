@@ -238,6 +238,24 @@
 			</dict>
 			<dict>
 				<key>Author</key>
+				<string>Sniki</string>
+				<key>Repo</key>
+				<string>EAPD-Codec-Commander</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>CodecCommander.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Author</key>
 				<string>BAndysc</string>
 				<key>Repo</key>
 				<string>VoodooPS2</string>
