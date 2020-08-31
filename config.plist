@@ -8,65 +8,65 @@
 		<array>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-CX20756.aml</string>
-				<key>Path</key>
-				<string>SSDT-CX20756.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-DDGPU.aml</string>
-				<key>Path</key>
-				<string>SSDT-DDGPU.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-EC.aml</string>
-				<key>Path</key>
-				<string>SSDT-EC.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-GPRW.aml</string>
-				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-HPET.aml</string>
+				<key>Enabled</key>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-HPET.aml</string>
-				<key>Enabled</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-PLUG.aml</string>
+				<key>Enabled</key>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PLUG.aml</string>
-				<key>Enabled</key>
-				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-PNLF.aml</string>
-				<key>Path</key>
-				<string>SSDT-PNLF.aml</string>
 				<key>Enabled</key>
 				<true/>
+				<key>Path</key>
+				<string>SSDT-PNLF.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>SSDT-PS2K.aml</string>
+				<key>Enabled</key>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-PS2K.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-UPC.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-UPC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-XOSI.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-XOSI.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-EHCx_OFF.aml</string>
+				<key>Path</key>
+				<string>SSDT-EHCx_OFF.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -80,17 +80,17 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-UPC.aml</string>
+				<string>SSDT-EC.aml</string>
 				<key>Path</key>
-				<string>SSDT-UPC.aml</string>
+				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-XOSI.aml</string>
+				<string>SSDT-CX20756.aml</string>
 				<key>Path</key>
-				<string>SSDT-XOSI.aml</string>
+				<string>SSDT-CX20756.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -185,16 +185,16 @@
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
-				<key>Limit</key>
-				<integer>0</integer>
 				<key>Find</key>
 				<data>X09TSQ==</data>
-				<key>Replace</key>
-				<data>WE9TSQ==</data>
+				<key>Limit</key>
+				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WE9TSQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -207,20 +207,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Method(GPRW,2,S) to XPRW</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>R1BSVwpwaA==</data>
-				<key>Replace</key>
-				<data>WFBSVwpwaA==</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WFBSVwpwaA==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -233,20 +233,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Method(_Q63,0,N) to XQ63</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>X1E2MwA=</data>
-				<key>Replace</key>
-				<data>WFE2MwA=</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WFE2MwA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -259,20 +259,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Method(_Q62,0,N) to XQ62</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>X1E2MgA=</data>
-				<key>Replace</key>
-				<data>WFE2MgA=</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WFE2MgA=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -285,20 +285,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Name(_PRW, Package(0x6d,3)) to 0x6d,0</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>CF9QUlcSBgIKbQoD</data>
-				<key>Replace</key>
-				<data>CF9QUlcSBgIKbQoA</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>CF9QUlcSBgIKbQoA</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -311,18 +311,18 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Name(_PRW, Package(0x6d,4)) to 0x6d,0</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>CF9QUlcSBgIKbQoE</data>
-				<key>Replace</key>
-				<data>CF9QUlcSBgIKbQoA</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>CF9QUlcSBgIKbQoA</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -335,20 +335,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Name(_PRW, Package(0x09,4)) to 0x09,0</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>CF9QUlcSBgIKCQoE</data>
-				<key>Replace</key>
-				<data>CF9QUlcSBgIKCQoA</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>CF9QUlcSBgIKCQoA</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -361,20 +361,20 @@
 			<dict>
 				<key>Comment</key>
 				<string>Change Method(UPC,0,S) to XUPC</string>
+				<key>Count</key>
+				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
 				<data>X1VQQwg=</data>
-				<key>Replace</key>
-				<data>WFVQQwg=</data>
-				<key>Count</key>
-				<integer>0</integer>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
 				<data></data>
 				<key>OemTableId</key>
 				<data></data>
+				<key>Replace</key>
+				<data>WFVQQwg=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -412,13 +412,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Change EC0 to EC</string>
+				<string>Change SAT0 to SATA</string>
 				<key>Count</key>
 				<integer>0</integer>
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>RUMwXw==</data>
+				<data>U0FUMA==</data>
 				<key>Limit</key>
 				<integer>0</integer>
 				<key>Mask</key>
@@ -426,7 +426,7 @@
 				<key>OemTableId</key>
 				<data></data>
 				<key>Replace</key>
-				<data>RUNfXw==</data>
+				<data>U0FUQQ==</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
