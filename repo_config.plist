@@ -381,13 +381,13 @@
 				<key>Name</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Essential</key>
-				<true/>
+				<false/>
 			</dict>
 			<dict>
 				<key>Name</key>
 				<string>AppleSDXCInjector.kext</string>
 				<key>Essential</key>
-				<true/>
+				<false/>
 			</dict>
 		</array>
 	</dict>
