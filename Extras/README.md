@@ -25,3 +25,33 @@ Enable SD card support by patching the `com.apple.driver.AppleSDXC`. Apply the b
 | Count      | Number  | 0                                                          |
 | Skip       | Number  | 0                                                          |
 | Arch       | String  | Any                                                        |
+
+## SSDT-UPC
+
+Alternative way to map USB ports. Remove USBMap.kext prior using this method. Also apply the following patches in `config.plist`:
+
+**ACPI -> Add**:
+
+| Key     | Type    | Value        |
+| :------ | :------ | :----------- |
+| Comment | String  | SSDT-UPC.aml |
+| Path    | String  | SSDT-UPC.aml |
+| Enabled | Boolean | True         |
+
+**ACPI -> Patch**:
+
+| Key            | Type    | Value                          |
+| :------------- | :------ | :----------------------------- |
+| Comment        | String  | Change Method(UPC,0,S) to XUPC |
+| Enabled        | Boolean | True                           |
+| Find           | Data    | 5F55504308                     |
+| Replace        | Data    | 5855504308                     |
+| Identifier     | String  | com.apple.driver.AppleSDXC     |
+| Limit          | Number  | 0                              |
+| Count          | Number  | 0                              |
+| Skip           | Number  | 0                              |
+| Mask           | Data    |                                |
+| ReplaceMask    | Data    |                                |
+| OemTableId     | Data    |                                |
+| TableLength    | Number  |                                |
+| TableSignature | Data    |                                |
