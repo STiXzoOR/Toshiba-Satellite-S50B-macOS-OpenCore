@@ -24,14 +24,6 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-EHCx_OFF.aml</string>
-				<key>Path</key>
-				<string>SSDT-EHCx_OFF.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
 				<string>SSDT-GPRW.aml</string>
 				<key>Path</key>
 				<string>SSDT-GPRW.aml</string>
@@ -75,14 +67,6 @@
 				<string>SSDT-SBUS.aml</string>
 				<key>Path</key>
 				<string>SSDT-SBUS.aml</string>
-				<key>Enabled</key>
-				<true/>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>SSDT-UPC.aml</string>
-				<key>Path</key>
-				<string>SSDT-UPC.aml</string>
 				<key>Enabled</key>
 				<true/>
 			</dict>
@@ -349,32 +333,6 @@
 				<data></data>
 				<key>Replace</key>
 				<data>CF9QUlcSBgIKCQoA</data>
-				<key>ReplaceMask</key>
-				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>TableLength</key>
-				<integer>0</integer>
-				<key>TableSignature</key>
-				<data></data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Change Method(UPC,0,S) to XUPC</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<true/>
-				<key>Find</key>
-				<data>X1VQQwg=</data>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Mask</key>
-				<data></data>
-				<key>OemTableId</key>
-				<data></data>
-				<key>Replace</key>
-				<data>WFVQQwg=</data>
 				<key>ReplaceMask</key>
 				<data></data>
 				<key>Skip</key>
@@ -1031,6 +989,24 @@
 				<key>BundlePath</key>
 				<string>WhateverGreen.kext</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+				<key>Enabled</key>
+				<true/>
+				<key>MinKernel</key>
+				<string></string>
+				<key>ExecutablePath</key>
+				<string></string>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBMap.kext</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array>
@@ -1203,26 +1179,6 @@
 				<data>MduKD4TJdQT/w7EKZrr9A+yoIHT7Zrr4A4jI7kj/x4XbdN/D</data>
 				<key>ReplaceMask</key>
 				<data></data>
-				<key>Skip</key>
-				<integer>0</integer>
-				<key>Arch</key>
-				<string>Any</string>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Realtek Inc. SD Card Reader - pci14e4,16bc -&gt; pci10ec,5229</string>
-				<key>Count</key>
-				<integer>0</integer>
-				<key>Enabled</key>
-				<false/>
-				<key>Find</key>
-				<data>cGNpMTRlNCwxNmJj</data>
-				<key>Identifier</key>
-				<string>com.apple.driver.AppleSDXC</string>
-				<key>Limit</key>
-				<integer>0</integer>
-				<key>Replace</key>
-				<data>cGNpMTBlYyw1MjI5</data>
 				<key>Skip</key>
 				<integer>0</integer>
 				<key>Arch</key>

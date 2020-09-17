@@ -379,6 +379,12 @@
 		<array>
 			<dict>
 				<key>Name</key>
+				<string>USBMap.kext</string>
+				<key>Essential</key>
+				<true/>
+			</dict>
+			<dict>
+				<key>Name</key>
 				<string>CPUFriendDataProvider.kext</string>
 				<key>Essential</key>
 				<false/>
