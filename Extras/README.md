@@ -46,7 +46,6 @@ Alternative way to map USB ports. Remove USBMap.kext prior using this method. Al
 | Enabled        | Boolean | True                           |
 | Find           | Data    | 5F55504308                     |
 | Replace        | Data    | 5855504308                     |
-| Identifier     | String  | com.apple.driver.AppleSDXC     |
 | Limit          | Number  | 0                              |
 | Count          | Number  | 0                              |
 | Skip           | Number  | 0                              |
