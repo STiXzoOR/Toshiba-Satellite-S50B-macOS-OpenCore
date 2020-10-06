@@ -196,16 +196,16 @@
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>BT4LEContinuityFixup.*RELEASE</string>
+				<string>AppleALC.*RELEASE</string>
 				<key>Filename</key>
-				<string>BT4LEContinuityFixup</string>
+				<string>AppleALC</string>
 				<key>Installations</key>
 				<dict>
 					<key>Kexts</key>
 					<array>
 						<dict>
 							<key>Name</key>
-							<string>BT4LEContinuityFixup.kext</string>
+							<string>AppleALC.kext</string>
 							<key>Essential</key>
 							<true/>
 						</dict>
@@ -220,16 +220,52 @@
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>AppleALC.*RELEASE</string>
+				<string>VoodooPS2.*RELEASE</string>
 				<key>Filename</key>
-				<string>AppleALC</string>
+				<string>VoodooPS2</string>
 				<key>Installations</key>
 				<dict>
 					<key>Kexts</key>
 					<array>
 						<dict>
 							<key>Name</key>
-							<string>AppleALC.kext</string>
+							<string>VoodooPS2Controller.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
+				<key>Source</key>
+				<string>api</string>
+				<key>Author</key>
+				<string>dortania</string>
+				<key>Repo</key>
+				<string>build-repo</string>
+				<key>Name</key>
+				<string>BrcmPatchRAM.*RELEASE</string>
+				<key>Filename</key>
+				<string>BrcmPatchRAM</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>BrcmFirmwareData.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>BrcmPatchRAM3.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+						<dict>
+							<key>Name</key>
+							<string>BrcmBluetoothInjector.kext</string>
 							<key>Essential</key>
 							<true/>
 						</dict>
@@ -256,46 +292,16 @@
 			</dict>
 			<dict>
 				<key>Author</key>
-				<string>BAndysc</string>
-				<key>Repo</key>
-				<string>VoodooPS2</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>VoodooPS2Controller.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Author</key>
 				<string>acidanthera</string>
 				<key>Repo</key>
-				<string>BrcmPatchRAM</string>
+				<string>BrightnessKeys</string>
 				<key>Installations</key>
 				<dict>
 					<key>Kexts</key>
 					<array>
 						<dict>
 							<key>Name</key>
-							<string>BrcmFirmwareData.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>Name</key>
-							<string>BrcmPatchRAM3.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-						<dict>
-							<key>Name</key>
-							<string>BrcmBluetoothInjector.kext</string>
+							<string>BrightnessKeys.kext</string>
 							<key>Essential</key>
 							<true/>
 						</dict>

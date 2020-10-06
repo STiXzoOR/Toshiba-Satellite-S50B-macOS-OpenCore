@@ -26,6 +26,46 @@ Enable SD card support by patching the `com.apple.driver.AppleSDXC`. Apply the b
 | Skip       | Number  | 0                                                          |
 | Arch       | String  | Any                                                        |
 
+## SSDT-PS2K
+
+**NOTE: Only used with VoodooPS2 version 2.1.6 and below.**
+
+Map brightness keys to F2 and F3 by patching embedded controller event \_Qxx. Also apply the two following patches in `config.plist`:
+
+**ACPI -> Patch**:
+
+| Key            | Type    | Value                            |
+| :------------- | :------ | :------------------------------- |
+| Comment        | String  | Change Method(\_Q62,0,N) to XQ62 |
+| Enabled        | Boolean | True                             |
+| Find           | Data    | 5F51363200                       |
+| Replace        | Data    | 5851363200                       |
+| Limit          | Number  | 0                                |
+| Count          | Number  | 0                                |
+| Skip           | Number  | 0                                |
+| Mask           | Data    |                                  |
+| ReplaceMask    | Data    |                                  |
+| OemTableId     | Data    |                                  |
+| TableLength    | Number  |                                  |
+| TableSignature | Data    |                                  |
+
+**ACPI -> Patch**:
+
+| Key            | Type    | Value                            |
+| :------------- | :------ | :------------------------------- |
+| Comment        | String  | Change Method(\_Q63,0,N) to XQ63 |
+| Enabled        | Boolean | True                             |
+| Find           | Data    | 5F51363300                       |
+| Replace        | Data    | 5851363300                       |
+| Limit          | Number  | 0                                |
+| Count          | Number  | 0                                |
+| Skip           | Number  | 0                                |
+| Mask           | Data    |                                  |
+| ReplaceMask    | Data    |                                  |
+| OemTableId     | Data    |                                  |
+| TableLength    | Number  |                                  |
+| TableSignature | Data    |                                  |
+
 ## SSDT-UPC
 
 Alternative way to map USB ports. Remove USBMap.kext prior using this method. Also apply the following patches in `config.plist`:
