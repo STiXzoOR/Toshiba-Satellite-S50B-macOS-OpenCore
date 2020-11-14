@@ -1,10 +1,5 @@
-// Adding PNLF device for WhateverGreen.kext and others.
-// This is a modified PNLF version originally taken from RehabMan/OS-X-Clover-Laptop-Config repository:
-// https://raw.githubusercontent.com/RehabMan/OS-X-Clover-Laptop-Config/master/hotpatch/SSDT-PNLF.dsl
-// Rename GFX0 to anything else if your IGPU name is different.
-//
-// Licensed under GNU General Public License v2.0
-// https://github.com/RehabMan/OS-X-Clover-Laptop-Config/blob/master/License.md
+// Reference: RehabMan/OS-X-Clover-Laptop-Config@master/hotpatch/SSDT-PNLF.dsl by Rehabman
+// Adding PNLF device for brightness support, pair with WhateverGreen.kext
 
 DefinitionBlock ("", "SSDT", 2, "DRTNIA", "PNLF", 0x00000000)
 {

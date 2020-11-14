@@ -34,6 +34,7 @@ DefinitionBlock ("", "SSDT", 2, "DRTNIA", "XOSI", 0x00001000)
                 "Windows 2009", 
                 "Windows 2012", 
                 "Windows 2013", 
+                "Windows 2015", 
                 "Microsoft Windows NT", 
                 "Microsoft Windows", 
                 "Microsoft WindowsME: Millennium Edition"

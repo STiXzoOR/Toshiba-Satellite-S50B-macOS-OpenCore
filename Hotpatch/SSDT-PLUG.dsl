@@ -1,3 +1,6 @@
+// Reference: RehabMan/OS-X-Clover-Laptop-Config@master/hotpatch/SSDT-XCPM.dsl by Rehabman
+// Inject plugin-type=1 on _PR.CPU0
+
 DefinitionBlock ("", "SSDT", 1, "ACDT", "freqdata", 0x00000001)
 {
 		//

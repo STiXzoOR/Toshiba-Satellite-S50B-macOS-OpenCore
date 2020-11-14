@@ -1,3 +1,6 @@
+// Reference: tonymacx86.com/threads/guide-usb-power-property-injection-for-sierra-and-later.222266 by Rehabman
+// Inject Fake EC device to load AppleBusPowerController, work with SSDT-USB
+
 DefinitionBlock ("", "SSDT", 2, "CORP ", "SsdtEC", 0x00001000)
 {
     External (\_SB.PCI0.LPCB, DeviceObj)
