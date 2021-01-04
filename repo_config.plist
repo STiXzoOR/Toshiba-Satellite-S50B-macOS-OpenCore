@@ -273,6 +273,30 @@
 				</dict>
 			</dict>
 			<dict>
+				<key>Source</key>
+				<string>api</string>
+				<key>Author</key>
+				<string>dortania</string>
+				<key>Repo</key>
+				<string>build-repo</string>
+				<key>Name</key>
+				<string>BrightnessKeys.*RELEASE</string>
+				<key>Filename</key>
+				<string>BrightnessKeys</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>BrightnessKeys.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
+			<dict>
 				<key>Author</key>
 				<string>Sniki</string>
 				<key>Repo</key>
@@ -284,24 +308,6 @@
 						<dict>
 							<key>Name</key>
 							<string>CodecCommander.kext</string>
-							<key>Essential</key>
-							<true/>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-			<dict>
-				<key>Author</key>
-				<string>acidanthera</string>
-				<key>Repo</key>
-				<string>BrightnessKeys</string>
-				<key>Installations</key>
-				<dict>
-					<key>Kexts</key>
-					<array>
-						<dict>
-							<key>Name</key>
-							<string>BrightnessKeys.kext</string>
 							<key>Essential</key>
 							<true/>
 						</dict>
