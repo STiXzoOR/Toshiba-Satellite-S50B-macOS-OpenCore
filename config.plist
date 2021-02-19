@@ -527,6 +527,8 @@
 				<data>BgAmFg==</data>
 				<key>AAPL,slot-name</key>
 				<string>Internal@0,2,0</string>
+				<key>AAPL00,override-no-connect</key>
+				<data>AP///////wAGEPKcAAAAABoVAQSVGg54Au8Fl1dUkiciUFQAAAABAQEBAQEBAQEBAQEBAQEBLjaAoHA4H0AwIDUAWcIQAAAaAAAA/ABDb2xvciBMQ0QKICAgAAAA/gBMRyBEaXNwbGF5CiAgAAAA/gBMUDE1NldGNi1TUEExAGk=</data>
 				<key>device_type</key>
 				<string>iGPU</string>
 				<key>disable-external-gpu</key>
@@ -629,7 +631,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<true/>
+				<false/>
 				<key>ExecutablePath</key>
 				<string></string>
 				<key>Arch</key>
@@ -1383,9 +1385,9 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>debug=0x100 igfxonln=1</string>
+				<string>debug=0x100 brcmfx-driver=2</string>
 				<key>csr-active-config</key>
-				<data>/wcAAA==</data>
+				<data>/w8AAA==</data>
 				<key>prev-lang:kbd</key>
 				<data>ZW4tVVM6MA==</data>
 				<key>run-efi-updater</key>
