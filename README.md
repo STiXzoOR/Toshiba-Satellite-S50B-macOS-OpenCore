@@ -131,14 +131,12 @@ make install
 ## Credits
 
 - [Apple](https://apple.com) for [macOS](https://www.apple.com/macos/)
-- [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [Lilu](https://github.com/acidanthera/Lilu), [AppleALC](https://github.com/acidanthera/AppleALC), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [BT4LEContinuityFixup](https://github.com/acidanthera/BT4LEContinuityFixup), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [MaciASL](https://github.com/acidanthera/MaciASL) and [IOJones](https://github.com/acidanthera/IOJones)
-- [Dortania](https://github.com/dortania) for the [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide), [Pre-built kexts](https://dortania.github.io/builds)
+- [Acidanthera](https://github.com/acidanthera) for [OpenCore](https://github.com/acidanthera/OpenCorePkg), [Lilu](https://github.com/acidanthera/Lilu), [AppleALC](https://github.com/acidanthera/AppleALC), [VoodooPS2](https://github.com/acidanthera/VoodooPS2), [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys), [WhateverGreen](https://github.com/acidanthera/WhateverGreen), [VirtualSMC](https://github.com/acidanthera/VirtualSMC), [CPUFriend](https://github.com/acidanthera/CPUFriend), [AirportBrcmFixup](https://github.com/acidanthera/AirportBrcmFixup), [BrcmPatchRAM](https://github.com/acidanthera/BrcmPatchRAM), [MaciASL](https://github.com/acidanthera/MaciASL) and [IOJones](https://github.com/acidanthera/IOJones)
 - [Mieze](https://github.com/Mieze) for [RealtekRTL8111](https://github.com/Mieze/RTL8111_driver_for_OS_X)
+- [Sniki](https://github.com/Sniki) for [CodecCommander](https://github.com/Sniki/EAPD-Codec-Commander)
 - [The BraveKnight](https://github.com/the-braveknight) for the his [tools](https://github.com/the-braveknight/macos-tools)
-- [EMlyDinEsH](https://osxlatitude.com/profile/7370-emlydinesh/) for [Apple PS/2 Smart TouchPad](https://osxlatitude.com/forums/topic/1948-elan-focaltech-and-synaptics-smart-touchpad-driver-mac-os-x/)
-- [Sinetek](https://www.insanelymac.com/forum/profile/4920-sinetek/) for [SD Card Support](https://www.insanelymac.com/forum/topic/321080-sineteks-driver-for-realtek-rtsx-sdhc-card-readers/)
-- [CodeRobe](https://github.com/coderobe/) for the [License](https://github.com/coderobe/AzulPatcher4600/blob/master/LICENSE.txt)
+- [Dortania](https://github.com/dortania) for the [OpenCore install guide](https://dortania.github.io/OpenCore-Install-Guide), [Pre-built kexts](https://dortania.github.io/builds)
 
 ## LICENSE
 
-- This project is licensed under the Anyone But TonyMac License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Satellite-S50B-N-15-macOS-OpenCore/blob/master/LICENSE) file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Satellite-S50B-N-15-macOS-OpenCore/blob/master/LICENSE) file for details.
