@@ -139,4 +139,4 @@ make install
 
 ## LICENSE
 
-- This project is licensed under the MIT License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Satellite-S50B-N-15-macOS-OpenCore/blob/master/LICENSE) file for details.
+- This project is licensed under the MIT License - see the [LICENSE](https://github.com/STiXzoOR/Toshiba-Satellite-S50B-macOS-OpenCore/blob/master/LICENSE) file for details.
