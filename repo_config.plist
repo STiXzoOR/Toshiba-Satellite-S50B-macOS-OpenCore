@@ -10,14 +10,12 @@
 		<array>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>VoodooInput.*RELEASE</string>
-				<key>Filename</key>
 				<string>VoodooInput</string>
 				<key>Installations</key>
 				<dict>
@@ -34,14 +32,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>RealtekRTL8111.*/release</string>
-				<key>Filename</key>
 				<string>RealtekRTL8111</string>
 				<key>Installations</key>
 				<dict>
@@ -58,14 +54,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>Lilu.*RELEASE</string>
-				<key>Filename</key>
 				<string>Lilu</string>
 				<key>Installations</key>
 				<dict>
@@ -82,14 +76,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>VirtualSMC.*RELEASE</string>
-				<key>Filename</key>
 				<string>VirtualSMC</string>
 				<key>Installations</key>
 				<dict>
@@ -118,14 +110,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>CPUFriend.*RELEASE</string>
-				<key>Filename</key>
 				<string>CPUFriend</string>
 				<key>Installations</key>
 				<dict>
@@ -142,14 +132,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>WhateverGreen.*RELEASE</string>
-				<key>Filename</key>
 				<string>WhateverGreen</string>
 				<key>Installations</key>
 				<dict>
@@ -166,14 +154,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>AirportBrcmFixup.*RELEASE</string>
-				<key>Filename</key>
 				<string>AirportBrcmFixup</string>
 				<key>Installations</key>
 				<dict>
@@ -190,14 +176,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>AppleALC.*RELEASE</string>
-				<key>Filename</key>
 				<string>AppleALC</string>
 				<key>Installations</key>
 				<dict>
@@ -214,14 +198,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>VoodooPS2.*RELEASE</string>
-				<key>Filename</key>
 				<string>VoodooPS2</string>
 				<key>Installations</key>
 				<dict>
@@ -238,14 +220,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>BrcmPatchRAM.*RELEASE</string>
-				<key>Filename</key>
 				<string>BrcmPatchRAM</string>
 				<key>Installations</key>
 				<dict>
@@ -274,14 +254,12 @@
 			</dict>
 			<dict>
 				<key>Source</key>
-				<string>api</string>
+				<string>config</string>
 				<key>Author</key>
 				<string>dortania</string>
 				<key>Repo</key>
 				<string>build-repo</string>
 				<key>Name</key>
-				<string>BrightnessKeys.*RELEASE</string>
-				<key>Filename</key>
 				<string>BrightnessKeys</string>
 				<key>Installations</key>
 				<dict>
