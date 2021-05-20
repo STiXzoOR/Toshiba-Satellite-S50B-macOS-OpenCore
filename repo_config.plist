@@ -324,6 +324,24 @@
 					</array>
 				</dict>
 			</dict>
+			<dict>
+				<key>Author</key>
+				<string>1Revenger1</string>
+				<key>Repo</key>
+				<string>ECEnabler</string>
+				<key>Installations</key>
+				<dict>
+					<key>Kexts</key>
+					<array>
+						<dict>
+							<key>Name</key>
+							<string>ECEnabler.kext</string>
+							<key>Essential</key>
+							<true/>
+						</dict>
+					</array>
+				</dict>
+			</dict>
 		</array>
 		<key>Bitbucket</key>
 		<array>
